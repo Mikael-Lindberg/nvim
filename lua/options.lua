@@ -19,3 +19,9 @@ vim.opt.incsearch = true
 vim.opt.hlsearch = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true 
+
+-- Column
+vim.opt.colorcolumn = '81'
+vim.cmd([[
+    highlight ColorColumn ctermbg=235 guibg=#1e1e1e
+]])
