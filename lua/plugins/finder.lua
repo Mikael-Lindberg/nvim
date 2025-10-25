@@ -698,8 +698,6 @@ function M.setup()
     -- Show both recent and marked files
     M.find_recent()
   end, { desc = "Harpoon-style quick files" })
-
-  print("ProjectFinder loaded! Use <leader>ff (files), <leader>fg (grep), <leader>fn (functions)")
 end
 
 return M
