@@ -397,3 +397,4 @@ BUILT-IN NEOVIM FEATURES TO REMEMBER:
 require("plugins.finder").setup()
 require("plugins.statusline").setup()
 require("plugins.autopairs").setup()
+require("plugins.todos").setup()
